@@ -1,0 +1,27 @@
+
+h1{
+    color: $pink; 
+}
+
+h2{
+    color: $light-blue;
+
+}
+
+p {
+    color: $dark-blue;
+}
+
+.card-title{
+    color: $light-blue;
+}
+
+span{
+    color: $light-blue;
+    
+}
+
+:any-link{
+    text-decoration: none;
+    color:inherit;
+}

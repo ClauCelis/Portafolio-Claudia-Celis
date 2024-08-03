@@ -9,7 +9,7 @@
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-pink: #FFB1B1;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -98,7 +98,7 @@
   --bs-link-decoration: underline;
   --bs-link-hover-color: #0a58ca;
   --bs-link-hover-color-rgb: 10, 88, 202;
-  --bs-code-color: #d63384;
+  --bs-code-color: #FFB1B1;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
@@ -170,7 +170,7 @@
   --bs-link-hover-color: #8bb9fe;
   --bs-link-color-rgb: 110, 168, 254;
   --bs-link-hover-color-rgb: 139, 185, 254;
-  --bs-code-color: #e685b5;
+  --bs-code-color: #ffd0d0;
   --bs-highlight-color: #dee2e6;
   --bs-highlight-bg: #664d03;
   --bs-border-color: #495057;
@@ -11966,6 +11966,96 @@ textarea.form-control-lg {
   }
 }
 body {
-  margin: 0 4rem;
+  margin: 0 1rem;
   padding: 0;
+}
+
+h1, .h1 {
+  color: #FFB1B1;
+}
+
+h2, .h2 {
+  color: #1679AB;
+}
+
+p {
+  color: #102C57;
+}
+
+.card-title {
+  color: #1679AB;
+}
+
+span {
+  color: #1679AB;
+}
+
+:-moz-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+:any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__img {
+  width: 90%;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #1679AB;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #102C57;
+}
+
+.logo_cc {
+  width: 180px;
+}
+
+.navbar-nav {
+  gap: 1rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #1679AB;
+}
+
+#icon__html {
+  color: #f42a2a;
+}
+#icon__css {
+  color: #379AD6;
+}
+#icon__sass {
+  color: #CD669A;
+}
+#icon__bootstrap {
+  color: #533B78;
+}
+#icon__git {
+  color: #F05030;
+}
+#icon__github {
+  color: #000;
+}
+#icon__js {
+  color: #E8D44D;
+}
+#icon__vue {
+  color: #3FB27F;
 }/*# sourceMappingURL=main.css.map */

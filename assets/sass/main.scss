@@ -1,14 +1,27 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
 
+// Abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
+
+// Vendors
+@import "vendors/bootstrap";
+
+// Base
 @import 'base/reset';
 @import 'base/typography';
-@import 'components/buttons';
-@import 'components/forms';
+
+// Layout
 @import 'layout/header';
 @import 'layout/footer';
+
+
+// Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/navbar';
+// Pages
 @import 'pages/home';
 @import 'pages/register';
+
+// Themes
 @import 'themes/theme';
-@import 'vendors/bootstrap';

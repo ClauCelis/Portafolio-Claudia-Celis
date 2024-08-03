@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Claudia</title>
-  <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
   <script src="https://kit.fontawesome.com/059cffcd48.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Claudia_Celis</a>
+      <a class="navbar-brand" href="#"><img class="logo_cc" src="./assets/img/logo_cc.png" alt="logo Claudia Celis"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,16 +20,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mis habilidades</a>
+            <a class="nav-link" href="#habilidades">Mis habilidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -39,7 +39,7 @@
   <header class="container-fluid">
     <div class="row col-12 align-items-center justify-content-center">
       <div class="col-12 col-md-6 d-flex justify-content-center">
-        <img src="./assets/img/designer_girl.svg" alt="designer_girl">
+        <img class="header__img" src="./assets/img/designer_girl.svg" alt="designer_girl">
       </div>
       <div class="col-12 col-md-6 justify-content-center">
         <h1>Soy Claudia Celis</h1>
@@ -47,65 +47,67 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing
           elit. Amet suscipit ipsam nemo maiores, culpa illo mollitia, excepturi odio minus hic doloribus cupiditate!
           Modi ut repellat alias accusantium maxime natus facilis!</p>
-        <button type="button" class="btn btn-primary col-12 col-md-4">Contáctame</button>
+        <a href="#contacto"><button type="button" class="btn btn-primary col-12 col-md-4">Contáctame</button></a>
       </div>
 
     </div>
   </header>
   <!-- Mis habilidades -->
-  <section>
+  <section id="habilidades">
     <h1 class="text-center my-5">Mis habilidades</h1>
-    <!-- <div class="container align-items-center justify-content-center"> -->
-    <div class="row col-6 col-md-12">
-      <div class="col my-2"><i class="fa-brands fa-html5 fa-3x me-1" style="color: #f42a2a;"></i>HTML</div>
-      <div class="col my-2"><i class="fa-brands fa-css3-alt fa-3x me-1" style="color: #379AD6;"></i>CSS</div>
-      <div class="col my-2"><i class="fa-brands fa-sass fa-3x me-1" style="color: #CD669A;"></i>Sass</div>
-      <div class="col my-2"><i class="fa-brands fa-bootstrap fa-3x me-1" style="color: #533B78;"></i>Bootstrap</div>
-      <div class="col my-2"><i class="fa-brands fa-git fa-3x me-1" style="color: #F05030;"></i>Git</div>
-      <div class="col my-2"><i class="fa-brands fa-github fa-3x me-1" style="color: #000;"></i>GitHub</div>
-      <div class="col my-2"><i class="fa-brands fa-square-js fa-3x me-1" style="color: #E8D44D"></i>Square</div>
-      <div class="col my-2"><i class="fa-brands fa-vuejs fa-3x me-1" style="color: #3FB27F;"></i>Vue</div>
-    </div>
+    <div class="container d-flex justify-content-between">
+      <div class="row col-6 w-50">
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-html5 fa-3x" id="icon__html"></i>HTML</span>
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-css3-alt fa-3x" id="icon__css"></i>CSS</span>
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-sass fa-3x" id="icon__sass"></i>Sass</span>
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-bootstrap fa-3x" id="icon__bootstrap"></i>Bootstrap</span>
+      </div>
+      <div class="row col-6 w-50">
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-git-alt fa-3x" id="icon__git"></i>Git</span>
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-github fa-3x" id="icon__github"></i>GitHub</span>
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-square-js fa-3x" id="icon__js"></i>JavaScript</span>
+        <span class="col-12 col-md-6 col-lg-3"><i class="fa-brands fa-vuejs fa-3x"id="icon__vue"></i>Vue</span>
+      </div>
     </div>
   </section>
 
 
   <!-- Mis proyectos -->
-  <section>
+  <section id="proyectos">
     <h1 class="text-center my-5">Mis proyectos</h1>
     <div class="row row-cols-2 row-cols-md-4">
       <div class="col">
         <div class="card mb-3">
-          <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="proyecto">
+          <img src="./assets/img/viajes_chile.png" class="card-img-top" alt="proyecto">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Viajes Chile</h5>
 
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card mb-3">
-          <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="proyecto">
+          <img src="./assets/img/ricomida.png" class="card-img-top" alt="proyecto">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Ricomida</h5>
 
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card mb-3">
-          <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="proyecto">
+          <img src="./assets/img/cuppon.png" class="card-img-top" alt="proyecto">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Cuppon</h5>
 
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card mb-3">
-          <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="proyecto">
+          <img src="./assets/img/suricata.png" class="card-img-top" alt="proyecto">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Suricata</h5>
 
           </div>
         </div>
@@ -114,7 +116,7 @@
   </section>
 
   <!-- Contacto -->
-  <section>
+  <section id="contacto">
     <h1 class="text-center my-5">Contáctame</h1>
     <div class="row row-cols-1 row-cols-md-2">
       <div class="form-group">
@@ -134,19 +136,31 @@
           <div><textarea class="form-control" placeholder="Escribe aquí tu mensaje" rows="3"></textarea>
           </div>
         </div>
-        <button type="button" class="btn btn-primary col-12 col-md-4 my-2">Enviar</button>
+        <button type="button" id="enviarCorreo" class="btn btn-primary col-12 col-md-4 my-2" >Enviar</button>
       </div>
-      <div class="data-group">
-        <ul>
-          <li>+56982136389</li>
-          <li>5nVZ5@example.com</li>
-          <li>milinkedin</li>
-          <li>migithub</li>
-          <li>miinstagram</li>
-        </ul>
+      <div class="data-group row my-3 align-items-center">
+        <span><i class="fa-solid fa-phone me-2"></i>+56982136389</span>
+        <span><i class="fa-solid fa-envelope me-2"></i>ps.celis@gmail.com</span>
+        <span><i class="fa-brands fa-linkedin me-2"></i>MiLinkedIn</span>
+        <span><a href="https://github.com/ClaudiaCelis" target="_blank"><i class="fa-brands fa-square-github me-2"></i>MiGitHub</a></span>
+        <span><i class="fa-brands fa-square-instagram me-2"></i>MiInstagram</span>
       </div>
     </div>
   </section>
+  <!-- Footer -->
+
+  <footer>
+    <div class="container-fluid my-5">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <span>2024 </span>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <span>Desarrollada por <a href="https://github.com/ClaudiaCelis" target="_blank">Claudia Celis</a></span>
+          
+        </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="module" src="./assets/js/main.js"></script>
 </body>
 
