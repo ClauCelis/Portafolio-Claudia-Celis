@@ -7,7 +7,7 @@
 - Se modifican los colores predeterminados de Bootstrap creando paleta de colores. 
 - Se usa grilla de Bootstrap para distribuir los elementos del portafolio tanto en su versión desktop como móvil.
 - En la sección principal se muestra la ilustración y el texto en columnas de 6 de ancho, mientras que en dispositivos pequeños utilizan todo el ancho disponible.
-- En los demás elementos, como las “habilidades”, también debe modificarse la forma en que estas se distribuyen en los diferentes tamaños de pantalla utilizando las clases row y col de Bootstrap.
-- Aplicar el componente Navbar para el menú de navegación, el cuál debe redirigir a cada sección de la página web.
-- Crear un formulario de contacto el cual permita que un cliente pueda cotizar tu servicio.
-- El formulario debe solicitar datos como nombre, apellido, email y el mensaje.
+- En los demás elementos, como las “habilidades”, también se modifican en los diferentes tamaños de pantalla utilizando las clases row y col de Bootstrap.
+- Se aplica componente Navbar para el menú de navegación, el cuál redirige a cada sección de la página web.
+- Se crea un formulario de contacto el cual permita que un cliente pueda cotizar tu servicio.
+- El formulario solicita nombre, apellido, email y el mensaje.
