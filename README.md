@@ -1,6 +1,6 @@
 # Desafío - Mi primer portafolio
 ### Maqueta: 
-![Maqueta de portafolio](/images/picture.jpg)
+![Maqueta de portafolio](https://github.com/ClauCelis/Portafolio-Claudia-Celis/blob/4c8d9db728dcb3f356f41deb48a5583268f5caf0/assets/img/maqueta.png)
 
 
 ## Requerimientos
